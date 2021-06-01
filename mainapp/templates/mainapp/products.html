@@ -82,9 +82,22 @@
 					<h2>Похожие продукты</h2>
 					<a class="explore" href="#">показать все <img src="{% static '/mainapp/img/arrow.png' %}" alt=""></a>
 				</div>
-				{% include 'includes/inc_product.html' %}
-			</div>
-		</div>
+
+
+				<div class="related-products clearfix">
+					{% for block in related_products %}
+					<div class="block">
+						<a href="#"><img src="{% static block.href %}" alt="{{block.name}}">
+							<div class="text">
+								<img src="{% static block.icon_hover %}" alt="img">
+								<h4>{{block.name}}</h4>
+								<p>Не оторваться. </p>
+							</div>
+						</a>
+					</div>
+					{% endfor %}
+				</div>
+
 
 		<div class="clr"></div>
 
