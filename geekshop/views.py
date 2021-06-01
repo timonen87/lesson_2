@@ -21,8 +21,15 @@ def index(request):
 def contacts(request):
     title = 'Контакты'
 
+    location_content = [
+        {'city': 'МОСКВА', 'tel': '+7-888-888-8888', 'email': 'info@geekshop.ru', 'adress': 'В пределах МКАД'},
+        {'city': 'МОСКВА', 'tel': '+7-888-888-8888', 'email': 'info@geekshop.ru', 'adress': 'В пределах МКАД'},
+        {'city': 'МОСКВА', 'tel': '+7-888-888-8888', 'email': 'info@geekshop.ru', 'adress': 'В пределах МКАД'},
+    ]
+
     context = {
         'some_name': 'hello world',
         'title': title,
+        'location_content': location_content,
     }
     return render(request, 'contact.html', context=context)
