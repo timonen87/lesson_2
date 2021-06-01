@@ -13,4 +13,10 @@ def index(request):
     return render(request, 'index.html', context=context)
 
 def contacts(request):
-    return render(request, 'contact.html')
+    title = 'Контакты'
+
+    context = {
+        'some_name': 'hello world',
+        'title': title,
+    }
+    return render(request, 'contact.html', context=context)
