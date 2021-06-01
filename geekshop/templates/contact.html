@@ -10,15 +10,7 @@
 <body>
 	<div class="container">
 		<div class="hero">
-			<div class="header clearfix">
-				 <a href="{% url 'index' %}" class="logo"></a>
-					<ul class="menu">
-						<li><a href="{% url 'index' %}" class="active">домой</a></li>
-						<li><a href="{% url 'mainapp:index' %}">продукты</a></li>
-						<li><a href="{% url 'contacts' %}">контакты</a></li>
-					</ul>
-					<a href="#" class="search"></a>
-				</div>
+			{% include 'includes/inc_main_menu.html' %}
 			<h1>наши контакты</h1>
 		</div>
 
