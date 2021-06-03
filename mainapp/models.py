@@ -12,6 +12,8 @@ class ProductCategory(models.Model):
         blank=True
     )
 
+    #href = models.URLField(verbose_name='url', max_length=200)
+
     created = models.DateTimeField(
         auto_now_add=True
     )
@@ -74,11 +76,12 @@ class Product(models.Model):
     )
 
     def __str__(self):
-        return f'{self.name} - {self.id} - {self.created}'
+        return f'{self.name} - {self.category.name}'
 
 
     class Meta:
         verbose_name = 'продукт',
         verbose_name_plural = 'продукты'
+
 
 

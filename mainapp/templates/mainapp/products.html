@@ -17,7 +17,7 @@
 				<a href="{% url 'index' %}" class="logo"></a>
 				<ul class="menu">
 					<li><a href="{% url 'index' %}" class="active">домой</a></li>
-					<li><a href="{% url 'mainapp:index' %}">продукты</a></li>
+					<li><a href="{% url 'products:index' %}">продукты</a></li>
 					<li><a href="{% url 'contacts' %}">контакты</a></li>
 				</ul>
 				<a href="#" class="search"></a>
@@ -28,9 +28,8 @@
 		<div class="details">
 			<div class="links clearfix">
 					<ul class="links-menu">
-
 						{% for link in links_menu %}
-							<li><a href="{% url link.href %}">{{link.name}}</a></li>
+							<li><a href="/">{{link.name}}</a></li>
 						{% endfor %}
 					</ul>
 				</div>

@@ -27,13 +27,14 @@
 	</div>
 
 	<div class="tab-content">
-		{% for tab in tab_content %}
+		{% for product in products %}
 		<div class="block">
-			<a href="#"><img src="{% static tab.href %}" alt="{{tab.name}}">
+			<a href="#"><img src="/media/{{ product.image }}" alt="{{ product.short_desc }}" style="width: 250px;">
 				<div class="text">
-					<img src="{% static tab.icon_hover %}" alt="img">
-					<h4>{{tab.name}}</h4>
-					<p>Расположитесь комфортно. </p>
+					<img src="static/img/icon-hover.png" alt="img">
+
+					<h4>{{ product.name }}</h4>
+					<p>{{ product.short_desc }}</p>
 				</div>
 			</a>
 		</div>
