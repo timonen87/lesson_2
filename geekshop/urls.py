@@ -20,12 +20,16 @@ from . import views
 from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls import include
+from authapp import urls as authapp_urls
+from mainapp import urls as mainapp_urls
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     #path('products/', include(urls), name='products'),
-    path('products/', include('mainapp.urls', namespace='products')),
+    path('products/', include('mainapp_urls', namespace='products')),
+    path('auth/', include('authapp_urls', namespace='auth')),
+
     path('', views.index, name='index'),
     #path('', views.index, name='products_all'),
     #path('', views.index, name='products_home'),
