@@ -1,0 +1,62 @@
+[
+  {
+    "model": "mainapp.product",
+    "pk": 2,
+    "fields": {
+      "category": 2,
+      "name": "Cветильник",
+      "image": "products_images/product-41.jpg",
+      "short_desc": "Светильник e14",
+      "description": "Настенный светильник черного цвета",
+      "price": "3000.00",
+      "quantity": 5,
+      "created": "2021-06-02T16:52:22.753",
+      "updated": "2021-06-02T17:19:18.953"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 3,
+    "fields": {
+      "category": 4,
+      "name": "Кресло",
+      "image": "products_images/promo-img2.jpg",
+      "short_desc": "Очень хорошее кресло",
+      "description": "Уютное кресло",
+      "price": "10000.00",
+      "quantity": 2,
+      "created": "2021-06-03T10:56:15.221",
+      "updated": "2021-06-03T10:56:15.221"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 4,
+    "fields": {
+      "category": 2,
+      "name": "Офисный стул",
+      "image": "products_images/product-21.jpg",
+      "short_desc": "Очень удобный стул",
+      "description": "",
+      "price": "5000.00",
+      "quantity": 10,
+      "created": "2021-06-03T12:51:22.042",
+      "updated": "2021-06-03T12:51:22.042"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 5,
+    "fields": {
+      "category": 6,
+      "name": "Часы",
+      "image": "products_images/product-4-sm.jpg",
+      "short_desc": "Часы настенные",
+      "description": "",
+      "price": "1000.00",
+      "quantity": 4,
+      "created": "2021-06-03T12:52:25.502",
+      "updated": "2021-06-03T12:52:25.502"
+    }
+  }
+]
