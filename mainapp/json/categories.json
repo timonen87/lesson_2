@@ -1,52 +1,37 @@
 [
   {
-    "model": "mainapp.productcategory",
-    "pk": 2,
-    "fields": {
-      "name": "ОФИС",
+      "name": "Дом",
       "description": "",
-      "created": "2021-06-02T16:50:55.853",
-      "updated": "2021-06-02T16:50:55.853"
-    }
+      "created": "2021-06-09T12:05:33.410",
+      "updated": "2021-06-09T12:05:33.410"
+
   },
   {
-    "model": "mainapp.productcategory",
-    "pk": 3,
-    "fields": {
+      "name": "Офис",
+      "description": "",
+      "created": "2021-06-09T12:05:33.418",
+      "updated": "2021-06-09T12:05:33.418"
+
+  },
+  {
       "name": "МОДЕРН",
       "description": "",
-      "created": "2021-06-02T17:01:23.230",
-      "updated": "2021-06-02T17:01:23.230"
-    }
+      "created": "2021-06-09T12:47:07.517",
+      "updated": "2021-06-09T12:47:07.517"
+
   },
   {
-    "model": "mainapp.productcategory",
-    "pk": 4,
-    "fields": {
       "name": "КЛАССИКА",
       "description": "",
-      "created": "2021-06-02T17:01:34.150",
-      "updated": "2021-06-02T17:01:34.150"
-    }
+      "created": "2021-06-09T12:47:19.899",
+      "updated": "2021-06-09T12:47:19.899"
+
   },
   {
-    "model": "mainapp.productcategory",
-    "pk": 5,
-    "fields": {
       "name": "ВСЕ",
       "description": "",
-      "created": "2021-06-02T17:53:34.198",
-      "updated": "2021-06-02T17:53:34.198"
-    }
-  },
-  {
-    "model": "mainapp.productcategory",
-    "pk": 6,
-    "fields": {
-      "name": "дом",
-      "description": "",
-      "created": "2021-06-03T11:29:23.909",
-      "updated": "2021-06-03T11:29:23.909"
-    }
+      "created": "2021-06-09T12:47:28.324",
+      "updated": "2021-06-09T12:47:28.324"
+
   }
 ]

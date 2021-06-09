@@ -1,62 +1,55 @@
 [
   {
-    "model": "mainapp.product",
-    "pk": 2,
-    "fields": {
-      "category": 2,
-      "name": "Cветильник",
-      "image": "products_images/product-41.jpg",
-      "short_desc": "Светильник e14",
-      "description": "Настенный светильник черного цвета",
-      "price": "3000.00",
-      "quantity": 5,
-      "created": "2021-06-02T16:52:22.753",
-      "updated": "2021-06-02T17:19:18.953"
-    }
-  },
-  {
-    "model": "mainapp.product",
-    "pk": 3,
-    "fields": {
-      "category": 4,
-      "name": "Кресло",
-      "image": "products_images/promo-img2.jpg",
-      "short_desc": "Очень хорошее кресло",
-      "description": "Уютное кресло",
+
+      "category": 7,
+      "name": "Офисный стул",
+      "image": "products_images/product-4.jpg",
+      "short_desc": "Очень удобный стул",
+      "description": "Очень удобный стул",
       "price": "10000.00",
       "quantity": 2,
-      "created": "2021-06-03T10:56:15.221",
-      "updated": "2021-06-03T10:56:15.221"
-    }
+      "created": "2021-06-09T12:49:19.424",
+      "updated": "2021-06-09T12:49:19.424"
+
   },
   {
-    "model": "mainapp.product",
-    "pk": 4,
-    "fields": {
-      "category": 2,
+
+      "category": 8,
       "name": "Офисный стул",
-      "image": "products_images/product-21.jpg",
+      "image": "products_images/product-21_V8x9BG6.jpg",
       "short_desc": "Очень удобный стул",
-      "description": "",
-      "price": "5000.00",
-      "quantity": 10,
-      "created": "2021-06-03T12:51:22.042",
-      "updated": "2021-06-03T12:51:22.042"
-    }
+      "description": "Очень удобный стул",
+      "price": "10000.00",
+      "quantity": 5,
+      "created": "2021-06-09T12:49:50.736",
+      "updated": "2021-06-09T12:49:50.736"
+
   },
   {
-    "model": "mainapp.product",
-    "pk": 5,
-    "fields": {
-      "category": 6,
+
+      "category": 10,
+      "name": "Диван",
+      "image": "products_images/product-3-sm_oTPNLvp.jpg",
+      "short_desc": "Очень удобный диван",
+      "description": "Очень удобный диван",
+      "price": "100000.00",
+      "quantity": 2,
+      "created": "2021-06-09T12:50:23.879",
+      "updated": "2021-06-09T12:50:23.879"
+
+  },
+  {
+
+      "category": 9,
       "name": "Часы",
-      "image": "products_images/product-4-sm.jpg",
-      "short_desc": "Часы настенные",
-      "description": "",
+      "image": "products_images/product-4-sm_iQgWnXq.jpg",
+      "short_desc": "Просто часы",
+      "description": "Просто часы",
       "price": "1000.00",
-      "quantity": 4,
-      "created": "2021-06-03T12:52:25.502",
-      "updated": "2021-06-03T12:52:25.502"
-    }
+      "quantity": 2,
+      "created": "2021-06-09T12:50:55.870",
+      "updated": "2021-06-09T12:50:55.870"
+
   }
+
 ]
