@@ -1,23 +1,36 @@
-from django.shortcuts import render
-from .models import ProductCategory
+from django.shortcuts import render, get_object_or_404
+from .models import ProductCategory, Product
 
 
 def products(request, pk=None):
     print(pk)
     title = 'каталог/продукты'
-
-
     links_menu = ProductCategory.objects.all()
 
-    related_products = [
-        {'href': '/mainapp/img/product-11.jpg', 'name': 'Стул повышенного качества', 'icon_hover':'/mainapp/img/icon-hover.png'},
-        {'href': '/mainapp/img/product-21.jpg', 'name': 'Стул повышенного качества', 'icon_hover':'/mainapp/img/icon-hover.png'},
-        {'href': '/mainapp/img/product-31.jpg', 'name': 'Стул повышенного качества','icon_hover':'/mainapp/img/icon-hover.png'},
-    ]
+    if pk is not None:
+        if pk == 0:
+            products = Product.objects.all().order_by('price')
+            category = {'name': 'все'}
+        else:
+            category = get_object_or_404(ProductCategory, pk=pk)
+            products = Product.objects.filter(category__pk=pk).order_by('price')
+
+        context = {
+            'products': products,
+            'title': title,
+            'category': category,
+            'links_menu': links_menu,
+
+        }
+        return render(request, 'mainapp/products.html', context=context)
+
+    products = Product.objects.all()
 
     context = {
-        'links_menu': links_menu,
+        'products': products,
         'title': title,
-        'related_products':related_products,
+        'links_menu': links_menu,
     }
+
     return render(request, 'mainapp/products.html', context=context)
+
