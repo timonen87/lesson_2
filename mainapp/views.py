@@ -7,6 +7,7 @@ def products(request, pk=None):
     title = 'каталог/продукты'
     links_menu = ProductCategory.objects.all()
 
+
     if pk is not None:
         if pk == 0:
             products = Product.objects.all().order_by('price')
