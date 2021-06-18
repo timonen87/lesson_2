@@ -2,11 +2,11 @@
 {% load static %}
 
 {% block style %}
-	<link rel="stylesheet" type="text/css" href="{% static '/style_index.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static '/style.css' %}">
 {% endblock %}
 
 {% block content %}
-<div class="slider">
+<div class="slider container">
 	{% include 'includes/inc_main_menu.html' %}
 	<div class="text-slider">
 		<h3 class="green">тенденции {% now "Y" %}</h3>

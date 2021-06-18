@@ -14,6 +14,7 @@ def load_from_json(file_name):
         return json.load(infile)
 
 
+
 class Command(BaseCommand):
     def handle(self, *args, **options):
         categories = load_from_json('categories')
