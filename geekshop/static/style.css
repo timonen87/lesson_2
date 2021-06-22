@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@timonen87 
+Kdkulakov
+/
+geekshop_621_704
+1
+03
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+geekshop_621_704/geekshop/static/style.css
+@Kdkulakov
+Kdkulakov add lesson7
+Latest commit 6897a54 11 days ago
+ History
+ 1 contributor
+1039 lines (986 sloc)  16.8 KB
+  
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700');
 * {
 	margin: 0;
@@ -71,23 +101,29 @@ html, body {
 }
 
 .search {
-	display: block;
+	display: inline-block;
 	width: 23px;
 	height: 23px;	
 	background-image: url(img/search.png);
     margin-top: 67px;
+<<<<<<< Updated upstream
     float: right;
+=======
+>>>>>>> Stashed changes
 }
 .basket {
 	display: block;
-	width: 23px;
-	height: 23px;	
+	height: 23px;
 	background-image: url(img/basket.png);
     margin-top: 67px;
     float: right;
 	margin-left: 20px;
     padding-top: 3px;
 	color: #8c8c8c;
+<<<<<<< Updated upstream
+=======
+	margin-right: 10px;
+>>>>>>> Stashed changes
 }
 
 .clearfix:after {
@@ -896,6 +932,7 @@ td:first-child {
 	height: 651px; 
 }
 
+<<<<<<< Updated upstream
 .slider-product {
 	width: 570px;
 	height: 570px;
@@ -925,6 +962,9 @@ td:first-child {
 .slider-control a:hover .text {
 	display: block;
 }
+=======
+
+>>>>>>> Stashed changes
 
 .description {
 	width: 535px;
@@ -1066,3 +1106,16 @@ td:first-child {
 .related-products a:hover .text{
 	display: block;
 }
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
