@@ -1,0 +1,55 @@
+[
+  {
+
+      "category": 7,
+      "name": "Офисный стул",
+      "image": "products_images/product-4.jpg",
+      "short_desc": "Очень удобный стул",
+      "description": "Очень удобный стул",
+      "price": "10000.00",
+      "quantity": 2,
+      "created": "2021-06-09T12:49:19.424",
+      "updated": "2021-06-09T12:49:19.424"
+
+  },
+  {
+
+      "category": 8,
+      "name": "Офисный стул",
+      "image": "products_images/product-21_V8x9BG6.jpg",
+      "short_desc": "Очень удобный стул",
+      "description": "Очень удобный стул",
+      "price": "10000.00",
+      "quantity": 5,
+      "created": "2021-06-09T12:49:50.736",
+      "updated": "2021-06-09T12:49:50.736"
+
+  },
+  {
+
+      "category": 10,
+      "name": "Диван",
+      "image": "products_images/product-3-sm_oTPNLvp.jpg",
+      "short_desc": "Очень удобный диван",
+      "description": "Очень удобный диван",
+      "price": "100000.00",
+      "quantity": 2,
+      "created": "2021-06-09T12:50:23.879",
+      "updated": "2021-06-09T12:50:23.879"
+
+  },
+  {
+
+      "category": 9,
+      "name": "Часы",
+      "image": "products_images/product-4-sm_iQgWnXq.jpg",
+      "short_desc": "Просто часы",
+      "description": "Просто часы",
+      "price": "1000.00",
+      "quantity": 2,
+      "created": "2021-06-09T12:50:55.870",
+      "updated": "2021-06-09T12:50:55.870"
+
+  }
+
+]
