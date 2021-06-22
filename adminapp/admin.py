@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-admin.site.register(adminapp)
+# Register your models here.
+
+
