@@ -10,14 +10,15 @@
 	<div class="container">
 		<div class="hero">
 			<div class="header clearfix">
-				 <a href="{% url 'index' %}" class="logo"></a>
-					<ul class="menu">
-						<li><a href="{% url 'index' %}" class="active">домой</a></li>
-						<li><a href="{% url 'mainapp:index' %}">продукты</a></li>
-						<li><a href="{% url 'contacts' %}">контакты</a></li>
-					</ul>
-					<a href="#" class="search"></a>
-				</div>
+				<a href="index.html" class="logo"></a>
+				<ul class="menu">
+					<li><a href="index.html">домой</a></li>
+					<li><a href="products.html">продукты</a></li>
+					<li><a href="contact.html" class="active">контакты</a></li>
+				</ul>
+				<a href="#" class="search"></a>
+                <a href="#" class="basket"></a>
+			</div>
 			<h1>наши контакты</h1>
 		</div>
 
@@ -75,7 +76,32 @@
 		<div class="clr"></div>
 	</div>	
 
-{% include 'includes/inc_footer.html' %}
+    <div class="footer">
+        <div class="clearfix">
+            <div class="text-footer">
+                <h3>контакты</h3>
+            </div>
+            <div class="text-footer">
+                <h3>полезная информация</h3>
+            </div>
+            <div class="text-footer clearfix">
+                <h3>Оставайтесь на связи</h3>
+                <p>Подписаться на новости и рассылки</p>
+                <form>
+                    <input type="email" name="email" placeholder="ваш email">
+                    <a href="#"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></a>
+                </form>
+            </div>
+        </div>
+        <p class="small">&copy; GB 2017</p>
+        <div class="social">
+            <a href="#" class="social1"></a>
+            <a href="#" class="social2"></a>
+            <a href="#" class="social3"></a>
+            <a href="#" class="social4"></a>
+        </div>
+        <p class="small">Положения &amp; Условия  /  Конфиденциальность &amp; Cookies</p>
+    </div>	
 			
 </body>
 </html>
